@@ -13,7 +13,7 @@ The goal of this repository is not only to build working models, but also to und
 | # | Project | Status |
 |---|---------|--------|
 | 01 | Diabetes Binary Classification | ✅ Completed |
-| 02 | Breast Cancer Binary Classification | ⏳ Coming Soon |
+| 02 | Breast Cancer Binary Classification | ✅ Completed |
 | 03 | Autoencoder | ⏳ Coming Soon |
 | 04 | Deep CNN for Text Classification | ⏳ Coming Soon |
 | 05 | Human Emotion Detection | ⏳ Coming Soon |
