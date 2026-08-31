@@ -1,21 +1,34 @@
-1) -- if you faced a problem with tensorflow and Cuda try this:
+# 🛠️ Environment Troubleshooting Guide
 
-    ```python
-    !pip install --upgrade pip
-    !pip install tensorflow[and-cuda]
-    ```
+### 1. TensorFlow and CUDA (GPU) Compatibility Issues
+If you encounter errors getting TensorFlow to recognize or load your GPU libraries, install the bundled compatible packages by running the following commands in your terminal:
 
-2) -- if you faced a problem with plotting the model try:
-    ```python
-    !pip install graphviz
-    ```
-    then if you are using arch linux try:
-    ```terminal
-    sudo pacman -S graphviz
-    ```
-    or if you are using Upuntu try:
-    ```terminal
-    sudo apt-get update
-    sudo apt-get install graphviz
-    ```
-    ----> then it will work -_-
+```bash
+pip install --upgrade pip
+pip install tensorflow[and-cuda]
+```
+
+---
+
+### 2. Model Plotting Issues (`plot_model`)
+If `plot_model` fails, it means you only have the Python wrapper but lack the core system tool. You must install the Python package **and** the system-level Graphviz software.
+
+**Step 1: Install the Python library**
+```bash
+pip install graphviz
+```
+
+**Step 2: Install the system application based on your OS**
+
+* **If you are using Arch Linux (or Manjaro):**
+  ```bash
+  sudo pacman -S graphviz
+  ```
+
+* **If you are using Ubuntu (or Debian):**
+  ```bash
+  sudo apt-get update
+  sudo apt-get install graphviz
+  ```
+
+> 💡 **Note:** After installing the system application, make sure to restart your IDE or environment (like VS Code or Jupyter Notebook) so Python can detect the new system paths. Everything should work perfectly! 😎
