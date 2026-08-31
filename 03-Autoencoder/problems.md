@@ -31,4 +31,14 @@ pip install graphviz
   sudo apt-get install graphviz
   ```
 
+
+
+### 3. Saving the model:
+if you saved the model in h5 format, You would get a warning saying that this is an old way and the newest way is to save the model with (.keras) format 
+cause the is the fastest and best way now.
+```bash
+old way ---> my_model.h5
+new way ---> my_model.keras
+```
+
 > 💡 **Note:** After installing the system application, make sure to restart your IDE or environment (like VS Code or Jupyter Notebook) so Python can detect the new system paths. Everything should work perfectly! 😎
