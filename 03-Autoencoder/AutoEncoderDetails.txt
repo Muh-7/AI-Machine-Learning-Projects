@@ -1,0 +1,7 @@
+1) UnSupervised Learning.
+2) Clustring is the most used in this type.
+3) We depend sometimes on the distance.
+4) We have Encoder and Decoder
+5) The encoder compresses the input
+6) The decoder attempts to recreate the input from the compressed version provided by the encoder
+7) After training, the encoder model is saved and the decoder is discarded.
