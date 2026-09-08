@@ -1,3 +1,7 @@
 * first of all: this dataset is from IMDB about reviews for films
 
 * We used to preprocess the data (Punctuation)** take a look for it.
+
+* use removing punctuation to remove symbols then use isalpha to remove non-letters such as numbers which is meaningless in our-case.
+
+* 
