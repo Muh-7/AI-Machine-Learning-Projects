@@ -1,1 +1,3 @@
-* first of all: this dataset is from IMDB about 
+* first of all: this dataset is from IMDB about reviews for films
+
+* We used to preprocess the data (Punctuation)** take a look for it.
