@@ -1,0 +1,41 @@
+# === Machine Learning Models & Weights ===
+*.h5
+*.keras
+*.pkl
+*.pth
+*.onnx
+*.pb
+*.tflite
+checkpoint/
+models/
+
+# === Datasets & Data ===
+# تجنب رفع البيانات والملفات الكبيرة
+*.csv
+*.tsv
+*.json
+*.parquet
+*.h5py
+data/
+datasets/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/
+*.pyc
+
+# === Virtual Environments ===
+.venv/
+venv/
+env/
+ENV/
+
+# === OS & IDE Files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Environment Variables ===
+.env
