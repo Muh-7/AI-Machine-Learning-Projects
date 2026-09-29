@@ -16,7 +16,7 @@ The goal of this repository is not only to build working models, but also to und
 | 02 | Breast Cancer Binary Classification | ✅ Completed |
 | 03 | Autoencoder | ✅ Completed  |
 | 04 | Deep CNN for Text Classification | ✅ Completed |
-| 05 | Human Emotion Detection | ⏳ Coming Soon |
+| 05 | Human Emotion Detection | ✅ Completed |
 | 06 | Spam & Ham Classification (SVC) | ⏳ Coming Soon |
 | 07 | Neural Machine Translation | ⏳ Coming Soon |
 | 08 | Age & Gender Estimation | ⏳ Coming Soon |
